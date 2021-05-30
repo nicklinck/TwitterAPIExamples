@@ -21,7 +21,9 @@ Now press the play button at the top of the notebook while you have the cell sel
 You should see output from your favorite tweeter! (Control output in '__main__' by setting variables 'DEBUG' and 'INFO' to 'True' or 'False')
 
 ## Details
-'process_tweets()' is the main function that will call other helper functions from the Twitter API class. Modify this if you would like to do something new with the code. 'process_tweets()' is meant to be an example for your to build your own application. The helpwer functions 'get_tweets(user)' and 'get_replies(id)' are where the main functionality of the Twitter API is stored.
+'process_tweets()' is the main function that will call other helper functions from the Twitter API class. Modify this if you would like to do something new with the code. 'process_tweets()' is meant to be an example for your to build your own application. 
+
+The helper functions 'get_tweets(user)' and 'get_replies(id)' are where the main functionality of the Twitter API is stored. Use these as desired for your application.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
