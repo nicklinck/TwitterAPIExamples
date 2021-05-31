@@ -47,7 +47,7 @@ class TwitterAPI():
 
     def connect_to_endpoint(self, url, headers):
         response = requests.request("GET", url, headers=headers)
-        logging(response.status_code)
+        logging_debug(response.status_code)
         if response.status_code != 200:
             raise Exception(response.status_code, response.text)
         return response.json()
